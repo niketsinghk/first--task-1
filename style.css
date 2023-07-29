@@ -1,0 +1,114 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Shantell+Sans:wght@300&family=Tilt+Neon&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 1rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero Section Styles */
+#hero {
+  /* background-image: url('hero-bg.jpg'); */
+  background-image: linear-gradient(to right,#0b0b81,rgb(14 217 217));
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hero h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  color : white;
+  font-family: 'Gloock', serif;
+
+}
+
+#hero form {
+  background-image: linear-gradient(45deg, #3fc5dbf5, #000000a3);
+  padding: 2rem;
+  border-radius: 3rem;
+}
+
+#hero label {
+  font-size: 1.2rem;
+  margin-right: 1rem;
+  font-family: 'Gloock', serif;
+
+}
+
+#hero input[type="text"], #hero input[type="date"] {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#hero button[type="submit"] {
+  color: #000;
+  background-color: #f7f1f1;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+#hero button:hover[type="submit"] {
+  color: #333;
+  background-color: #8d8888;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Other Section Styles */
+section {
+  padding: 2rem;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+section ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* Add a background gradient to the body */
+body {
+  background: linear-gradient(to bottom, #f5f7fa, #095fe7);
+}
